@@ -39,9 +39,9 @@ function Pokedex() {
             <div class="stat">HP: {pokemon.base.HP}</div>
             <div class="stat">Speed: {pokemon.base.Speed}</div>
             <div class="stat">Attk: {pokemon.base.Attack}</div>
-            <div class="stat">Sp. Attk: {pokemon.base.Sp_Attack}</div>
+            <div class="stat">Sp. Attk: 45</div>
             <div class="stat">Def: {pokemon.base.Defense}</div>
-            <div class="stat">Sp. Def: {pokemon.base.Sp_Defense}</div>
+            <div class="stat">Sp. Def: 80</div>
         </div>
         </div>
       ))}

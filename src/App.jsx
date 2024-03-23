@@ -1,10 +1,17 @@
-import Pokemon from "./Pokemon"
+// App.jsx
+import React from 'react';
+import Header from './Header';
+import Pokedex from './Pokedex';
+import './index.css';
+
 
 function App() {
-  return(
-    <Pokemon></Pokemon>
+  return (
+    <div className="app">
+      <Header />
+      <Pokedex />
+    </div>
   );
-  
 }
 
-export default App
+export default App;
